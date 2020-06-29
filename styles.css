@@ -17,15 +17,16 @@
     top: 0;
     margin-left: -5px;
 }
+.navigation ul a{
+    text-decoration: none;
+}
 .navigation ul li{
     display: inline;
     padding-left: 10px;
     color: #ffffff;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-    top: 0;
-    
+  top: 0;
 }
 .navigation{
     position: absolute;
@@ -330,4 +331,8 @@ height: 430px;
     left :-15px;
     line-height: 1;
     font-size: 15px;
+ }
+ .useful a{
+     text-decoration: none;
+     color: #ffffff;
  }
