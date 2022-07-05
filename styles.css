@@ -1,12 +1,12 @@
 .container{
-    width: 70%;
+    width: 65%;
     position: relative;
-    left: 15%;
+    left: 14%;
 }
 .navbar{
     background-color: #009999;
     width: 100%;
-    height: 40px;
+    height: 30px;
     padding: 10px;
     
 }
@@ -17,15 +17,16 @@
     top: 0;
     margin-left: -5px;
 }
+.navigation ul a{
+    text-decoration: none;
+}
 .navigation ul li{
     display: inline;
     padding-left: 10px;
     color: #ffffff;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-    top: 0;
-    
+  top: 0;
 }
 .navigation{
     position: absolute;
@@ -33,10 +34,12 @@
     top:0%;
 }
 .baner{
-    height: 60px;
+    height: 55px;
     width: 100%;
     padding: 10px;
     background-color: #000000;
+    position: relative;
+    top:2px;
     
 }
 
@@ -44,23 +47,295 @@
     height: 70px;
     width: 90px;
     position: absolute;
-    top:65px;
+    top:2px;
     left:7%;
+    max-width: 100%;
 }
 .tablet_baner{
     height: 90px;
     width: 110px;
     position: absolute;
-    top:55px;
-    left:85%;
+    top:-6px;
+    left:80%;
+    max-width: 100%;
 }
 .best{
     font-size: 32px;
     position: relative;
-    top:5px;
-    left:20%;
+    top:-6px;
+    left:10%;
     color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:600px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.price{
+    width: 30%;
+    height: 50px;
+    position: relative;
+    top:-10px;
+    left:37%;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.phone1{
+    height: 100px;
+    position: relative;
+    top: -45px;
+    left:19%;
+    color: #ffffff;
+    font-size: 12px;
+}
+.phone2{
+    height: 100px;
+    position: relative;
+    top: -144px;
+    left:70%;
+    color: #ffffff;
+    font-size: 12px;
+}
+.devices{
+    display: flex;
+    height: 150px;
+    max-width: 100px;
+    position: absolute;
+    top:13px;
+    max-width: 100%;
+    
+}
+.tecno{
+    margin-left: 80px;
+    transform: rotate(20deg);
+    padding-left: 15px;
+    
+    
+}
+.samsung{
+    margin-left: 80px;
+    transform: rotate(20deg);
+}
+.iphone{
+    margin-left:100px;
+    top:40px;
+}
+.tablet{
+    margin-left: 130px;
+}
+.middle{
+border-left: 2px solid black;
+border-right: 2px solid black;
+margin-right: -2.5%;
+position: relative;
+top:-25px;
+height: 430px;
+}
+.tecno_descr{
+    position: absolute;
+    top:100px;
+    left:55%;
+    font-size: 15px;
+    padding-right: 1px;
+    display: flex;
     font-weight: bold;
 }
+.samsung_descr{
+    position: absolute;
+    top:100px;
+    left:200px;
+    font-size: 14px;
+    padding-right: 1px;
+    display: flex;
+    font-weight: bold;
+}
+.iphone_descr{
+    position: absolute;
+    top:100px;
+    left:460px;
+    font-size: 14px;
+    padding-right: 1px;
+    display: flex;
+    font-weight: bold;
+}
+.tablet_descr{
+    position: absolute;
+    top:100px;
+    left:630px;
+    font-size: 14px;
+    padding-right: 1px;
+    display: flex;
+    font-weight: bold;
+}
+.testimonials{
+    display: flex;
+    position: absolute;
+    top:160px;
+    left:-40px;
+}
+.testimonial1{
+    border:2px solid black;
+    position: relative;
+    left:150px;
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+}
+.testimonial2{
+    border:2px solid black;
+    position: relative;
+    left:250px;
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+}
+.testimonial3{
+    border:2px solid black;
+    position: relative;
+    left:350px;
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+}
+.profile1{
+    border:1px solid black;
+    position: absolute;
+    top: -8px;
+    left:-50px;
+    border-radius: 50%;
+    height: 90px;
+}
+.profile2{
+    border:1px solid black;
+    position: absolute;
+    top: -8px;
+    left:-50px;
+    border-radius: 50%;
+    height: 90px;
+}
+.profile3{
+    border:1px solid black;
+    position: absolute;
+    top: -8px;
+    left:-50px;
+    border-radius: 50%;
+    height: 90px;
+}
+.testimonialtext{
+    position: absolute;
+    top:-30px;
+    left:350px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.about_us{
+    position: relative;
+    top:250px;
+    left:80px;
+}
+.about{
+    position: absolute;
+    top:24px;
+    font-size: 20px;
+}
+.abouth1{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.our_mission{
+    position: relative;
+    top:200px;
+    left:340px;
+}
+.mission{
+    font-size: 20px;
+    position: absolute;
+    top:24px;
+}
+.missionh1{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo_black{
+    position: absolute;
+    top:230px;
+    left:60%;
+}
+.footer{
+    display: flex;
+    background-color: #006666;
+    position: absolute;
+    top:530px;
+    height: 120px;
+    width: 830px;
+}
+ .links{
+     color: #ffffff;
+     margin-left: 25px;
+     font-family:verdana;
+     text-decoration: underline;
+     
+ }
+ 
+ 
+ .useful{
+     position: absolute;
+     top:4px;
+     list-style: none;
+     margin-left: -17px;
+     color: #ffffff;
+     
+     
+     
+ }
+ .contacth{
+     font-size: 15px;
+     color: #ffffff;
+     font-family: Verdana;
+     position: absolute;
+     top: 1px;
+     left:25px;
+     text-decoration: underline;
+     
+ }
+ .contactline{
+     position: relative;
+     top:16px;
+     margin-right: 70px;
+ }
+ .contacts{
+     position: absolute;
+     left:30%;
+ }
+ .direction{
+     position: absolute;
+     left:80%;
+     color: #ffffff;
+     text-decoration: underline;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .copyright{
+     position: absolute;
+     top:100px;
+     left:30%;
+     color: #ffffff;
+     font-size: 14px;
+     font-style: italic;
+ }
+ .contacttext{
+    list-style: none; 
+    color: #ffffff;
+    position: absolute;
+    top:8px;
+    left :-15px;
+    line-height: 1;
+    font-size: 15px;
+ }
+ .useful a{
+     text-decoration: none;
+     color: #ffffff;
+ }
